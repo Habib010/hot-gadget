@@ -1,0 +1,41 @@
+.container{
+    margin-bottom: 100px;
+}
+.container h2{
+    margin-bottom: 40px;
+}
+.navbar a{
+    font-weight: bold;
+}
+.buy-now-btn {
+        background-image: linear-gradient(to bottom, #242424 0%, #000000 100%);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 9px 25px;
+}
+.d-flex h6{
+    color: orange;
+    font-weight: bold;
+}
+.text{
+    text-align: center;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgb(238, 238, 238);
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+}
+.im{
+    margin: 40px;
+}
+.im h5{
+    text-align: center;
+    padding: 20px;
+}
