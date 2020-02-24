@@ -25,7 +25,7 @@
     border: none;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: 5px 5px 10px rgb(238, 238, 238);
+    box-shadow: 5px 5px 10px rgb(233, 233, 233);
 }
 .card-footer{
     background-color: white;
@@ -38,4 +38,32 @@
 .im h5{
     text-align: center;
     padding: 20px;
+}
+.carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        color: orange;
+    
+}
+.carousel-indicators .active {
+    width: 45px;
+    height: 10px;
+    border-radius: 10px;
+   background-image: linear-gradient(to bottom, #ffd900 0%, #fffc68 100%);
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #c0c0c0;
+    background-image: linear-gradient( #aaaaaa, #f1f1f1 );  
+}
+.carousel-indicators{
+            margin-bottom: -40px;
+}
+.row{
+    padding: 10px;
 }
